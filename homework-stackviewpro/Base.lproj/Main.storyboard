@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="homework_stackviewpro" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="DRL-uw-Eeu">
+                                <rect key="frame" x="0.0" y="74" width="414" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bdT-0F-2y1">
+                                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" id="mNk-u6-c4L"/>
+                                        </constraints>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPi-qw-8Nx">
+                                        <rect key="frame" x="62.5" y="0.0" width="53" height="30"/>
+                                        <state key="normal" title="按鈕1號"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UAe-kk-glD">
+                                        <rect key="frame" x="178" y="0.0" width="55" height="30"/>
+                                        <state key="normal" title="按鈕2號"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ac-8m-VHh">
+                                        <rect key="frame" x="295.5" y="0.0" width="56" height="30"/>
+                                        <state key="normal" title="按鈕3號"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hIu-W5-mTY">
+                                        <rect key="frame" x="414" y="0.0" width="0.0" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" id="W9K-xf-SOT"/>
+                                        </constraints>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="復仇者-布麗拉森" translatesAutoresizingMaskIntoConstraints="NO" id="Gga-Ga-X71">
+                                <rect key="frame" x="124.5" y="208" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="3qY-tA-2TI"/>
+                                    <constraint firstAttribute="height" constant="200" id="KEH-S4-uNt"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="71" translatesAutoresizingMaskIntoConstraints="NO" id="tQI-07-cRF">
+                                <rect key="frame" x="20" y="458" width="374" height="20.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="文字信息框1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iMn-GB-G4L">
+                                        <rect key="frame" x="0.0" y="0.0" width="206.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="文字信息框2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j1U-Iz-Kol">
+                                        <rect key="frame" x="277.5" y="0.0" width="96.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DRL-uw-Eeu" secondAttribute="trailing" id="Dic-vV-ZXL"/>
+                            <constraint firstItem="Gga-Ga-X71" firstAttribute="top" secondItem="DRL-uw-Eeu" secondAttribute="bottom" multiplier="10/5" id="FgN-kb-m93"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tQI-07-cRF" secondAttribute="trailing" constant="20" id="K9m-Iw-1PQ"/>
+                            <constraint firstItem="DRL-uw-Eeu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Pko-OD-Ip1"/>
+                            <constraint firstItem="tQI-07-cRF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="UnE-yX-tKL"/>
+                            <constraint firstItem="tQI-07-cRF" firstAttribute="top" secondItem="Gga-Ga-X71" secondAttribute="bottom" constant="50" id="gUK-tb-0D1"/>
+                            <constraint firstItem="Gga-Ga-X71" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="trailing" multiplier="1/15" constant="97" id="tnv-MX-7Kt"/>
+                            <constraint firstItem="DRL-uw-Eeu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="v4d-sp-k6W"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="530" y="79"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="復仇者-布麗拉森" width="640" height="637"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
